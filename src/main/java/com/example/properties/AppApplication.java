@@ -27,6 +27,7 @@ public class AppApplication {
         return args -> {
             log.info("hoge: {}", properties.getHoge());
             log.info("piyo: {}", properties.getPiyo());
+            log.info("sample.hoge: {}", properties.getSampleHoge());
         };
     }
 

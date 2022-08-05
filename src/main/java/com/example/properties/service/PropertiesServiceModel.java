@@ -12,4 +12,6 @@ public class PropertiesServiceModel {
     private String hoge;
     @Value("${props.piyo}")
     private String piyo;
+    @Value("${sample.hoge}")
+    private String sampleHoge;
 }
